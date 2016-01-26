@@ -1,0 +1,2 @@
+# devkokushin-theme
+WordPress Theme
