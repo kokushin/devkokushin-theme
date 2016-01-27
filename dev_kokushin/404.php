@@ -2,9 +2,13 @@
 
 <main class="blog-contents">
 
-  <div class="error-404">404</div>
+  <div class="error-404">
 
-  <div class="btn-return"><a href="<?php echo home_url(); ?>">Back Index</a></div>
+    <h2>404</h2>
+
+    <div class="btn-return"><a href="<?php echo home_url(); ?>">Back Index</a></div>
+
+  </div>
 
 </main>
 
