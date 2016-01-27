@@ -10,6 +10,8 @@
     </div>
   </div>
 
+  <figure><span style="background-image: url(<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>)"></span></figure>
+
   <div class="in">
     <div class="letter-body">
       <?php the_content(); ?>
