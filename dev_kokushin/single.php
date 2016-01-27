@@ -14,6 +14,8 @@
 
   </div>
 
+  <?php get_template_part( 'content', 'share' ); ?>
+
   <?php get_template_part( 'content', 'pager' ); ?>
 
   <div class="btn-return"><a href="<?php echo home_url(); ?>">Back Index</a></div>
