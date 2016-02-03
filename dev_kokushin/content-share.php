@@ -15,7 +15,7 @@
     <span><?php if(function_exists('scc_get_share_gplus')) echo (scc_get_share_gplus()==0)?'':scc_get_share_gplus(); ?></span>
   </a>
 
-  <a class="hatena" href="//b.hatena.ne.jp/add?mode=confirm&map;url=<?php the_permalink(); ?>&amp;title=<?php echo get_the_title(); ?>" target="_blank">
+  <a class="hatena" href="//b.hatena.ne.jp/add?url=<?php the_permalink(); ?>&amp;title=<?php echo get_the_title(); ?>" target="_blank">
     <i>B!</i>
     <span><?php if(function_exists('scc_get_share_hatebu')) echo (scc_get_share_hatebu()==0)?'':scc_get_share_hatebu(); ?></span>
   </a>
